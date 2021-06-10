@@ -84,6 +84,8 @@ document.addEventListener('DOMContentLoaded', () => {
       cards[optionOneId].setAttribute('src', 'images/white.png');
       cards[optionTwoId].setAttribute('src', 'images/white.png');
       cardsWon.push(cardsChosen);
+      cards[optionOneId].removeEventListener('click', flipcard);
+      cards[optionTwoId].removeEventListener('click', flipcard);
     } else {
       cards[optionOneId].setAttribute('src', 'images/blank.png');
       cards[optionTwoId].setAttribute('src', 'images/blank.png');

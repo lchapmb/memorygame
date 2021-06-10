@@ -4,3 +4,11 @@
   height: 300px;
   width: 400px;
 }
+
+#scoreboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  padding: 5px;
+}
